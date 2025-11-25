@@ -1,0 +1,12 @@
+{
+  "name": "quant-bridge",
+  "version": "1.0.0",
+  "description": "WebSocket <-> TCP bridge for C++ matching engine",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
