@@ -1,5 +1,4 @@
 # Quant-Trading-Simulator
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/hackingsage/Quant-Trading-Simulator)
 
 This repository contains a C++ quantitative trading simulator featuring a high-performance matching engine, a synthetic market data generator, and an automated Black-Scholes market-making bot. The system is visualized through a React-based web interface, connected via a Node.js WebSocket bridge.
 
