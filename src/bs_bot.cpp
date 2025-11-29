@@ -83,7 +83,7 @@ uint64_t BSBot::post_limit_order(uint32_t instrument, uint8_t side, double price
     mo.price = price;
     mo.quantity = qty;
     // if MsgNewOrder has instrument id, set it here; otherwise adapt
-    // mo.instrument_id = instrument; // uncomment if your struct has it
+    // mo.instrument_id = instrument;
     bool pushed = engine_->submit_new_order(mo);
     if (!pushed) return 0;
     // MatchingServer currently returns assigned order id via ACK — to track exact IDs you'd need the ACK handler.
